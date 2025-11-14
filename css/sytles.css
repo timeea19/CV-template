@@ -1,7 +1,7 @@
 body {
 	background-image: url(../img/darkdenim3.png);
 	background-repeat:repeat;
-	color: #333;
+	color: #708090;
 	font-size: 11px;
 	height: auto;
 	padding: 20px 0;
@@ -10,19 +10,19 @@ body {
 }
 
 a {
-	color:#737475;
+	color:#B76E79;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: none;
 }
-a:link {color:#737475;}      
-a:visited {color:#737475}  
+a:link {color:#B76E79;}      
+a:visited {color:#B76E79}  
 
 h1 {
 	font-family: 'PT Sans Narrow', cursive;
-	color: #000;
+	color: #B76E79;
 	font-size: 60px;
 	text-align:left;
 	font-weight:normal;
@@ -40,16 +40,16 @@ img.floatLeft {
     float: left;
     margin: 10px 20px 15px 0px;
 	background-color: #FFFFFF;
-    border: 1px solid #CFD0CB;
+    border: 1px solid #B76E79;
     border-radius: 3px 3px 3px 3px;
-    box-shadow: 0 6px 6px 0px #727274;
+    box-shadow: 0 6px 6px 0px #708090;
     float: left;
     height: 160px;
     padding: 4px;
     width: 120px;
 }
 .item p {
-	color: #737475;
+	color: #708090;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     line-height: 1.5em;
@@ -65,7 +65,7 @@ img.floatLeft {
 	text-transform: uppercase;
 }
 .item_tittle h1 span {
-    background: none repeat scroll 0 0 #74767A;
+    background: none repeat scroll 0 0 #708090;
     border-radius: 3px 3px 3px 3px;
     color: #ffffff;
     float: right;
@@ -178,19 +178,19 @@ img.floatLeft {
 }
 #name_tittle h1{
 	font-family: 'PT Sans Narrow', cursive;
-	color: #022E63;
-	font-size: 85px;
+	color: #B76E79;
+	font-size: 40px;
 	text-align:left;
 	font-weight:bold;
 }
 #name_tittle ul{
 	color: #74767A;
     font-family: 'PT Sans',sans-serif;
-    font-size: 36px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 1.0em;
     list-style-type: none;
-    margin: -24px 0 0 -31px;
+    margin: -5px 0 0 -31px;
     text-align: left;
 }
 #name_tittle li{
@@ -238,7 +238,7 @@ img.floatLeft {
 }
 
 .vertical_line{
-	height: 600px;
+	height: 1000px;
 	background-image: url("../img/vertical_line.png");
 	background-repeat: repeat-y;
 	margin: 43px 0 0;
@@ -268,7 +268,7 @@ img.floatLeft {
 	
 }
 .ribbon2{
-    color: #1b579e;
+    color: #B76E79;
     font-size: 30px;
     width: 390px;
 	font-family: 'PT Sans Narrow', cursive;
@@ -279,7 +279,7 @@ img.floatLeft {
 
 .ribbon_portfolio{
 	border-bottom: 3px dotted #BEBEBE;
-    color: #1B579E;
+    color: #B76E79;
     font-family: 'PT Sans Narrow',cursive;
     font-size: 30px;
     font-weight: bold;
@@ -348,57 +348,42 @@ img.floatLeft {
 .progress_bar{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
-}
-.photoshop{
-	height:22px;
-	width:0px;
-	background-color:#488AC7;
+	background-color:#f474da;
 }
 .ilustrator{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
-}
-.dreamweaver{
-	height:22px;
-	width:0px;
-	background-color:#488AC7;
+	background-color:#f474da;
 }
 .flash{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
+	background-color:#f3a0e2;
 }
 .html{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
+	background-color:#f3a0e2;
 }
 .css{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
+	background-color:#f3a0e2;
 	}
-.java{
-	height:22px;
-	width:0px;
-	background-color:#1b579e;
-}
 .cms{
 	height:22px;
 	width:0px;
-	background-color:#461B7E;
+	background-color:#cc63b7;
 }
 .seo{
 	height:22px;
 	width:0px;
-	background-color:#461B7E;
+	background-color:#cc63b7;
 }
 .php{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
+	background-color:#f474da;
 }
 /* ===jQuery lightBox plugin - Gallery style ===*/	
 
@@ -547,10 +532,132 @@ label {
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
 }
 
+.hobby-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
 
+.hobby-item {
+  font-size: 25px;
+  padding: 15px 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  cursor: default;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  color: #737475;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: relative; 
+}
 
-	
-	
-	
-	
-	
+.hobby-item:hover {
+  transform: scale(1.1);
+  background-color: #B76E79;
+  color: #fff;
+}
+
+.hobby-item::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #B76E79;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  opacity: 0;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.hobby-item:hover::after {
+  opacity: 1;
+}
+.contact-link {
+  display: inline-block;
+  background-color: #B76E79;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-link:hover {
+  background-color: #a45c68;
+}
+
+#email-form {
+  margin-top: 15px;
+  font-family: 'PT Sans Narrow', cursive;
+  color: #708090;
+}
+
+#email-form label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000;
+  font-family: 'PT Sans Narrow', sans-serif;
+  white-space: nowrap;
+}
+
+#email-form input[type="text"] {
+  padding: 6px;
+  border: 1px solid #B76E79;
+  border-radius: 4px;
+  width: 120px;
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#email-form input[type="text"]:focus {
+  border: 1px solid #022E63;
+  outline: none;
+}
+
+.gmail-button {
+  background-color: #B76E79;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.gmail-button:hover {
+  background-color: #a45c68;
+}
+.captcha-block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.captcha-question {
+  display: block;
+  width: 100%;
+}
+
+.captcha-input-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
